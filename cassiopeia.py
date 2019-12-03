@@ -8,9 +8,9 @@ jo = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(width = 1.0, height = 1.0)
 
-# Function to clear screen every 7.5 seconds
+# Function to clear screen every 10 seconds
 def turtleClear():
-    time.sleep(7.5)
+    time.sleep(10)
     turtle.clearscreen()
 
 # Function to create title page
@@ -54,6 +54,8 @@ def drawStars():
     turtle.goto(40,-50)
     turtle.stamp()
     turtle.goto(100,0)
+    turtle.stamp()
+    turtle.goto(100, 0)
     
 drawStars()
 
